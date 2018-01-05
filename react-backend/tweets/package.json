@@ -1,0 +1,25 @@
+{
+  "name": "tweets",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-autosuggest": "^9.3.2",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.0.17",
+    "react-tweet-embed": "^1.0.8",
+    "react-twitter-widgets": "^1.7.1",
+    "twit": "^2.2.9",
+    "twitter": "^1.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:3001/",
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
